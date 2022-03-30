@@ -1,0 +1,48 @@
+.compress__mode {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.compress__mode:hover {
+  background-color: #f6f6f8;
+}
+
+.divider {
+  background-color: #cfcfd2;
+  height: 2px;
+  width: 100%;
+}
+
+.compress__mode--title {
+  text-transform: uppercase;
+  color: #e5373c;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* .compress__mode--desc { */
+/* background-color: yellow; */
+/* margin: 0; */
+/* } */
+
+.compress__tick--icon {
+  /* background-color: #4acd86; */
+  border-radius: 50%;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compress__tick--icon-active {
+  background-color: #4acd86;
+  border-radius: 50%;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+.remove {
+  height: 100%;
+  text-align: left;
+  padding: 1rem;
+}
+
+.remove label {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.remove input {
+  width: 100%;
+}

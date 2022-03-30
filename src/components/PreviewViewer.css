@@ -1,0 +1,111 @@
+.preview {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 2px dashed var(--border-color);
+  border-radius: 20px;
+  background-color: var(--input-bg);
+  overflow-y: scroll;
+}
+
+/* .preview__container {
+  height: 100%;
+  overflow-y: scroll;
+  direction: rtl;
+} */
+
+.preview::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+.preview::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.preview::-webkit-scrollbar-thumb {
+  background-color: #ff6a58;
+  outline: 1px solid slategrey;
+  border-radius: 2rem;
+}
+
+.preview__dragover {
+  background-color: #e2e2e6;
+}
+
+.preview input {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+.preview__document {
+  /* margin: 2rem; */
+  position: relative;
+  margin: auto;
+  margin-top: 1rem;
+  border: 2px solid #ebebf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 10rem;
+  transition: all 0.3s;
+}
+
+.preview__document:hover .preview__document--close {
+  visibility: visible;
+}
+
+.preview__document--close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  transform: rotate(45deg);
+  visibility: hidden;
+  transition: color 0.3s;
+}
+
+.preview__document--close:hover {
+  background-color: #e5e5e9;
+}
+
+.preview__title {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.react-pdf__Document {
+  border: 3px solid #ebebf0;
+}
+
+.preview__addicon {
+  position: absolute;
+  right: 1%;
+  top: 1%;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff6a58;
+  color: #fff;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+.preview__addicon:hover {
+  background-color: #bd060a;
+}

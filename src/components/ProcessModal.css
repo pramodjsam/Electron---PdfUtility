@@ -1,0 +1,247 @@
+.modal-80w {
+  min-width: 80%;
+  min-height: 80vh;
+  display: flex;
+}
+
+.modal-content {
+  border-radius: 0.8rem !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.modal-body {
+  padding: 0 !important; /* changed */
+}
+
+.modal__container {
+  height: 100%;
+}
+
+.modal__row {
+  height: 100%;
+}
+
+.modal__left {
+  height: 83vh;
+  padding: 1rem;
+  background-color: #f5f5fa;
+}
+
+.modal__right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.modal__button {
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e5322d;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.modal__button:hover {
+  background-color: #bd060a;
+}
+
+.modal__button--disabled {
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e5322d;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: #e5e5e9;
+  cursor: default !important;
+}
+
+.modal__button--icon {
+  margin-left: 1rem;
+}
+
+.modal__header {
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #cfcfd2;
+}
+
+.modal__close--button {
+  display: inline-block;
+  float: right;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin-right: 1rem;
+}
+
+.modal__close--button:hover {
+  background-color: #e5e5e9;
+}
+
+.modal__header--title {
+  clear: both;
+  font-size: 1.5rem;
+}
+
+/* SPLIT */
+.split {
+  text-align: left;
+  margin-top: 1rem;
+  padding: 1rem;
+}
+
+.split__title {
+  color: #e5373c;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.split__mode {
+  background-color: #ffffff;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  border-radius: 0.75rem;
+  text-align: center;
+  margin-top: 1rem;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.split__mode--extract {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-top-left-radius: 0.75rem;
+  /* background-color: #f6f6f8;
+  border-top: 5px solid #e5373c;
+  color: #e5373c; */
+}
+
+.split__mode--extract-active,
+.split__mode--select-active {
+  background-color: #f6f6f8;
+  border-top: 5px solid #e5373c;
+  color: #e5373c;
+}
+
+.split__mode--select {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-top-right-radius: 0.75rem;
+}
+
+.extract__message--box {
+  margin-top: 3rem;
+  padding: 1rem;
+  background-color: #def2ff;
+  border: 2px solid #41abef;
+}
+
+.extract__message--text {
+  color: #12a8f5;
+}
+
+.extract__box {
+  margin-top: 3rem;
+}
+
+.extract__box label {
+  display: block;
+  font-weight: 500;
+}
+
+.extract__box input {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.extract__box input::placeholder {
+  padding-left: 0.5rem;
+}
+/* END OF SPLIT */
+
+.progress__box {
+  width: 100%;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+}
+
+.progress__bar {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.subprogress__bar {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.progress__bar--box {
+  margin-bottom: 0.5rem;
+  opacity: 0;
+}
+
+.subprogress__bar--box {
+  margin-bottom: 0.5rem;
+  /* opacity: 0; */
+}
+
+.progress__bar--box-visible {
+  opacity: 1;
+}
+
+.subprogress__bar--box-visible {
+  opacity: 1;
+}
+
+.process__button--box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.modal__process--failed {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #f8d7da;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  color: #a54972;
+}
+
+.modal__process--loading {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #fff3cd;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  color: #7c641f;
+}

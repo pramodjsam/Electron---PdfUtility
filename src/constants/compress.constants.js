@@ -1,0 +1,3 @@
+export const LOW_QUALITY = "LOW_QUALITY";
+export const MEDIUM_QUALITY = "MEDIUM_QUALITY";
+export const HIGH_QUALITY = "HIGH_QUALITY";

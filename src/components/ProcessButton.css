@@ -1,0 +1,39 @@
+.modal__button {
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e5322d;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.modal__button:hover {
+  background-color: #bd060a;
+}
+
+.modal__button--disabled {
+  height: 5rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+  /* background-color: #e5322d; */
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  background-color: #e5e5e9;
+  cursor: default !important;
+}
+
+.modal__button--icon {
+  margin-left: 1rem;
+}
